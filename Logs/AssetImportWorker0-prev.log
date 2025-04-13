@@ -1,0 +1,898 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.45f1 (d91bd3d4e081) revision 14228435'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Education' Language: 'en' Physical Memory: 8119 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.45f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/INTEL/Documents/CODING/Unity/Game1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51240
+-job-worker-count
+1
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/INTEL/Documents/CODING/Unity/Game1
+C:/Users/INTEL/Documents/CODING/Unity/Game1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12988]  Target information:
+
+Player connection [12988]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1897995114 [EditorId] 1897995114 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TTH3VV0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12988]  * "[IP] 192.168.50.76 [Port] 0 [Flags] 2 [Guid] 1897995114 [EditorId] 1897995114 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TTH3VV0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12988] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12988] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 1
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.45f1 (d91bd3d4e081)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/INTEL/Documents/CODING/Unity/Game1/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f0a)
+    Vendor:   NVIDIA
+    VRAM:     3935 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005275 seconds.
+- Loaded All Assemblies, in  0.680 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.582 seconds
+Domain Reload Profiling: 1260ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (289ms)
+		LoadAssemblies (215ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (282ms)
+				TypeCache.ScanAssembly (259ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (583ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (522ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (280ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.135 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Game1
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.122 seconds
+Domain Reload Profiling: 2253ms
+	BeginReloadAssembly (287ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (705ms)
+		LoadAssemblies (501ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (368ms)
+			TypeCache.Refresh (270ms)
+				TypeCache.ScanAssembly (248ms)
+			BuildScriptInfoCaches (78ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1122ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (881ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (506ms)
+			ProcessInitializeOnLoadMethodAttributes (195ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 218 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6353 unused Assets / (6.7 MB). Loaded Objects now: 7017.
+Memory consumption went from 157.3 MB to 150.6 MB.
+Total: 14.752200 ms (FindLiveObjects: 0.969800 ms CreateObjectMapping: 1.471000 ms MarkObjects: 7.025700 ms  DeleteObjects: 5.284200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5032.703838 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Skybox/Space.mat
+  artifactKey: Guid(aa276ed2be5343ab89b6523279f9747e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Skybox/Space.mat using Guid(aa276ed2be5343ab89b6523279f9747e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a136dede1314b1f794dbda6a1a84deee') in 0.8634337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Material/Unlit Color.mat
+  artifactKey: Guid(a183dfc9611144fde89b8fe2a7d3a793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Material/Unlit Color.mat using Guid(a183dfc9611144fde89b8fe2a7d3a793) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a8f1a735db7a309fc02bcfbf368294b') in 0.0265588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.160641 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Material/Grid.mat
+  artifactKey: Guid(e17031099b8f8479687f99bb93d35383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Material/Grid.mat using Guid(e17031099b8f8479687f99bb93d35383) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91f19088bb9cb1474c9c09a3c6e4fde7') in 0.0397425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 202.650346 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5
+  artifactKey: Guid(88445b73edcbfb242bba5bfdfaf83d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ProBuilder/6.0.5 using Guid(88445b73edcbfb242bba5bfdfaf83d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5468585cd87bb82af60041d3a9afcd5') in 0.0009958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Scripts/Handles.cs
+  artifactKey: Guid(66763c701ecd4747b117f3fd153dc4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Scripts/Handles.cs using Guid(66763c701ecd4747b117f3fd153dc4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc149ed1c39fedfe16b3e16884618d09') in 0.0008502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Scripts/CameraControls.cs
+  artifactKey: Guid(912bb9b70e8a4e3489626fe00e75bf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Scripts/CameraControls.cs using Guid(912bb9b70e8a4e3489626fe00e75bf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5fa9c56f9cc2e60ad8561ca5a2d07e5') in 0.0007351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Editor Examples/EditorCallbackViewer.cs
+  artifactKey: Guid(bc9063dd5c474cb78a1068e2805d5a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ProBuilder/6.0.5/Editor Examples/EditorCallbackViewer.cs using Guid(bc9063dd5c474cb78a1068e2805d5a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5045a3531cbab2991a00ade86010764') in 0.0007741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Scripts/CameraMotion.cs
+  artifactKey: Guid(5c9c851079c8c42de80d622ca825a9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Scripts/CameraMotion.cs using Guid(5c9c851079c8c42de80d622ca825a9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '047e8804b470dd29a3bd3178a71c53b5') in 0.0007284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Scripts/CameraMotion.cs
+  artifactKey: Guid(5c9c851079c8c42de80d622ca825a9dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Scripts/CameraMotion.cs using Guid(5c9c851079c8c42de80d622ca825a9dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55d5a3b3b5a73ffe6ddf4b93117c794f') in 0.2702606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Skybox/Space_down.png
+  artifactKey: Guid(dd8b9074a41740b48931999f45564c2d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Skybox/Space_down.png using Guid(dd8b9074a41740b48931999f45564c2d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99cb1e86690976dadefc58fbed551f57') in 0.0760002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Audio Visualizer.unity
+  artifactKey: Guid(728c74ce1219442780ea2d3e2a24b05b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Audio Visualizer.unity using Guid(728c74ce1219442780ea2d3e2a24b05b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '430d51507f57eed9f15481aa51654522') in 0.0183935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Icons/SlideArrow.png
+  artifactKey: Guid(77df81267d8e542c3a37878327ed4935) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Icons/SlideArrow.png using Guid(77df81267d8e542c3a37878327ed4935) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8bb6304bb86a962492c2ce9b01ea0cf') in 0.0269203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Material/ProBuilderIcon.tga
+  artifactKey: Guid(5e65e46b4d9d4ed590fcc39d49f18f65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Material/ProBuilderIcon.tga using Guid(5e65e46b4d9d4ed590fcc39d49f18f65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '284979f771df58d549640c4a5ae39914') in 0.0333047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/README.txt
+  artifactKey: Guid(81fa8b7b12b74aa9b4a84425a8aea8f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/README.txt using Guid(81fa8b7b12b74aa9b4a84425a8aea8f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c957ef16e8a8221d4cb2549d1260536') in 0.0157425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ProBuilder Data
+  artifactKey: Guid(6500c62a483295347926c6f9657b2e21) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ProBuilder Data using Guid(6500c62a483295347926c6f9657b2e21) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4835d7832063c025abe72b6fbd49c6d8') in 0.0147432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Material/Unlit Color.mat
+  artifactKey: Guid(a183dfc9611144fde89b8fe2a7d3a793) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Material/Unlit Color.mat using Guid(a183dfc9611144fde89b8fe2a7d3a793) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87f9ce1a24d9da9d52c4eb50e1a058e1') in 0.0285341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT
+  artifactKey: Guid(ee59bd0c36d5473f826b29989a095d75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT using Guid(ee59bd0c36d5473f826b29989a095d75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67919e184318b0f4e836a4e00aff9976') in 0.0170544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Icons/OrbitView.png
+  artifactKey: Guid(799480ee10f41421bb92f9e5a3c69787) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Icons/OrbitView.png using Guid(799480ee10f41421bb92f9e5a3c69787) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74d6317aea5ec226b9e3c1f452948450') in 0.025194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Skybox
+  artifactKey: Guid(062b62fea4114dceb2abad49474fd223) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Skybox using Guid(062b62fea4114dceb2abad49474fd223) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5570aff8e1ffa721a1976507799bacb3') in 0.0177143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Procedural Mesh
+  artifactKey: Guid(e6277cab0dfe41ee82e8fb3a83540df4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Procedural Mesh using Guid(e6277cab0dfe41ee82e8fb3a83540df4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '160a473c74c379f92ae9a8de8b2aa7ea') in 0.0172476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8d26018cd811c91b8ec606768849061') in 0.0196075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Code
+  artifactKey: Guid(e3ad67926fb693c4ea0cb3662910fb89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Code using Guid(e3ad67926fb693c4ea0cb3662910fb89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f0a3ac81908d0435292cf7fcadd8948') in 0.0150291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Material
+  artifactKey: Guid(ab9e9917caf06410b8b540ccc4a5b3d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Material using Guid(ab9e9917caf06410b8b540ccc4a5b3d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27c8d6f3b71569421d47376ae7faa004') in 0.015695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Misc
+  artifactKey: Guid(a679501741f14ceeb2e2db56ee117a51) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Misc using Guid(a679501741f14ceeb2e2db56ee117a51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '049340392dc96716ddaf3eae6e690a80') in 0.0170868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Samples/ProBuilder
+  artifactKey: Guid(c1fecd8062034c240b37b847aec5b4f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder using Guid(c1fecd8062034c240b37b847aec5b4f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '814104029c6d1297d1fa539b95e67cdb') in 0.0144307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Scripts/Selection.cs
+  artifactKey: Guid(59747bf704554a959f6e1bcf75069a7e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Scripts/Selection.cs using Guid(59747bf704554a959f6e1bcf75069a7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0387287e16b6fd2cb35edd495f4af847') in 0.0168513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Editor Examples/ClearUnusedAttributes.cs
+  artifactKey: Guid(6788c2a43ba342adb830ebab0b3559c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Editor Examples/ClearUnusedAttributes.cs using Guid(6788c2a43ba342adb830ebab0b3559c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd36570239244b7f0113a9957877b47d7') in 0.015407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Convert Mesh to Editable/ProBuilderize Scene.unity
+  artifactKey: Guid(1761c79ad29d9478ba3425188e3b970a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Convert Mesh to Editable/ProBuilderize Scene.unity using Guid(1761c79ad29d9478ba3425188e3b970a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5b682ffdcb3bfe741cb410fe2ad7393') in 0.0180406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Icons/ZoomView.png
+  artifactKey: Guid(ff473b481fdc64223a2f01e41b055bb4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Icons/ZoomView.png using Guid(ff473b481fdc64223a2f01e41b055bb4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d67ab169db6325573fddc5a22efe30e') in 0.0260408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/README.txt
+  artifactKey: Guid(81fa8b7b12b74aa9b4a84425a8aea8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/README.txt using Guid(81fa8b7b12b74aa9b4a84425a8aea8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a7f13b904408273777d5324d368caf7') in 0.0016122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Convert Mesh to Editable/MakePrimitiveEditable.cs
+  artifactKey: Guid(35958f0cf3d04442db210de4b2ecc910) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Convert Mesh to Editable/MakePrimitiveEditable.cs using Guid(35958f0cf3d04442db210de4b2ecc910) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec03802c502ca074c4cabbb3fcc2bac6') in 0.0186888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Procedural Mesh/ExtrudeRandomEdges.cs
+  artifactKey: Guid(3f9d3b8aab0f45e99ac875ef5ebaa496) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Procedural Mesh/ExtrudeRandomEdges.cs using Guid(3f9d3b8aab0f45e99ac875ef5ebaa496) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39288384b6c58e07a2b6a425c8bdd197') in 0.0173354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Skybox/Space.mat
+  artifactKey: Guid(aa276ed2be5343ab89b6523279f9747e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Skybox/Space.mat using Guid(aa276ed2be5343ab89b6523279f9747e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b1cf77a2d1ff293a1c064dc301e114b') in 0.021914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/README.md
+  artifactKey: Guid(59c10d71b32084671aa7185cf2f83108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/README.md using Guid(59c10d71b32084671aa7185cf2f83108) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '267be7e7c5377334f24cbeef23badccf') in 0.0014328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Editor Examples/CreateShadowObject.cs
+  artifactKey: Guid(8f46951015504d67b363ed8172e41dc8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Editor Examples/CreateShadowObject.cs using Guid(8f46951015504d67b363ed8172e41dc8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '135dddd5a0cf22da84dbbdd44b157236') in 0.0174261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Icons/PlusArrow.png
+  artifactKey: Guid(603c9fa805cb44d4b83c82566fe4f028) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Icons/PlusArrow.png using Guid(603c9fa805cb44d4b83c82566fe4f028) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98b19b6d6a73c831ad0f98c362c58b69') in 0.0235785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Editor Examples/ClearUnusedAttributes.cs
+  artifactKey: Guid(6788c2a43ba342adb830ebab0b3559c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ProBuilder/6.0.5/Editor Examples/ClearUnusedAttributes.cs using Guid(6788c2a43ba342adb830ebab0b3559c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd322ebf1f68fa7fd2a7cce2207daa01c') in 0.0007753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Code/TowerRotator.cs
+  artifactKey: Guid(21ed5a3e4c8264943907d7ac5bb6c6ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Code/TowerRotator.cs using Guid(21ed5a3e4c8264943907d7ac5bb6c6ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23cdbe8dbd80feee8f112e8f02b745d3') in 0.0177596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Skybox/Space_back.png
+  artifactKey: Guid(d1fca55857b844b1bed302409cc301f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Skybox/Space_back.png using Guid(d1fca55857b844b1bed302409cc301f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '324393fec8f5722c83baaea25f2cf121') in 0.0272192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Editor Examples/SetCustomUnwrapParams.cs
+  artifactKey: Guid(91f0616c83774dd686735affddfd2ed7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Editor Examples/SetCustomUnwrapParams.cs using Guid(91f0616c83774dd686735affddfd2ed7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e26fe69abc4ad753a590947ab72fae9') in 0.014928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Editor Examples/SoftDeleteEdgesAction.cs
+  artifactKey: Guid(d72709bf714c69d4e8d9d1b3b0f27f42) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Editor Examples/SoftDeleteEdgesAction.cs using Guid(d72709bf714c69d4e8d9d1b3b0f27f42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37dc2029ac6b5b90c3b19d90740ab746') in 0.0157861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Skybox/Space_front.png
+  artifactKey: Guid(b407ea087b934bf3b9f41b9f999b6eb4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Skybox/Space_front.png using Guid(b407ea087b934bf3b9f41b9f999b6eb4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4cf345dfe4676bcd2f41f41cebe9f3d') in 0.0239212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Code/CameraFollow.cs
+  artifactKey: Guid(8e8ae64cc2ae7fd49b6987d32130fd6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Code/CameraFollow.cs using Guid(8e8ae64cc2ae7fd49b6987d32130fd6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72a0a34327d52fff43b5f1a29d36b7da') in 0.0166366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Skybox/Space_left.png
+  artifactKey: Guid(9f672008281b4fd898ffb016a4ba84b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Skybox/Space_left.png using Guid(9f672008281b4fd898ffb016a4ba84b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cbb91f998d6fb960e95dc4d57ecb1a3e') in 0.0237789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Editor Examples/CustomAction.cs
+  artifactKey: Guid(418af46bf5b74c89808aef1e0c5441f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Editor Examples/CustomAction.cs using Guid(418af46bf5b74c89808aef1e0c5441f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd45c8bebba010221bf2dd14180d4f8aa') in 0.0224732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Editor Examples/Unity.ProBuilder.Examples.Editor.asmdef
+  artifactKey: Guid(ef1f5f55a4ed543fe93cc11633ee6d60) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Editor Examples/Unity.ProBuilder.Examples.Editor.asmdef using Guid(ef1f5f55a4ed543fe93cc11633ee6d60) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '103829c156d894b38b46abd7b2a91b31') in 0.0151053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Misc/CreatePolyShape.cs
+  artifactKey: Guid(fbeb76ea9758f064f8e1e2dad5982093) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Misc/CreatePolyShape.cs using Guid(fbeb76ea9758f064f8e1e2dad5982093) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98c6b34feb65d9776ab0a4b4c2167c15') in 0.0153156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Scripts
+  artifactKey: Guid(3d452139dec9b4425836e0039ed9ef57) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Scripts using Guid(3d452139dec9b4425836e0039ed9ef57) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b48543fb83dd39bb8027e37b09fe429') in 0.0149625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Unity.ProBuilder.Examples.asmdef
+  artifactKey: Guid(66e8476a6a0694b19a6ed20581be3b56) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Unity.ProBuilder.Examples.asmdef using Guid(66e8476a6a0694b19a6ed20581be3b56) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '200f628355cac6d775e39cf05319482a') in 0.0142325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Scripts/SimpleGrid.cs
+  artifactKey: Guid(c5e18053250949969ca18bc5c8b35805) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Scripts/SimpleGrid.cs using Guid(c5e18053250949969ca18bc5c8b35805) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60d000cbe0bb6eeb5ed381220c77aab7') in 0.0167123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Procedural Mesh/Extrude Random Edges.unity
+  artifactKey: Guid(f5e66bdb6ec34b41bbbf0fbf00bdf203) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Procedural Mesh/Extrude Random Edges.unity using Guid(f5e66bdb6ec34b41bbbf0fbf00bdf203) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce0ed55f59993c39993575bf92310704') in 0.0198288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Vertex Colors/HighlightNearestFace.unity
+  artifactKey: Guid(fe2669afe8754b78ab708f0f370eab7a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Vertex Colors/HighlightNearestFace.unity using Guid(fe2669afe8754b78ab708f0f370eab7a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f7f14b4a9895974f18614febeccd038') in 0.0146837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Editor Examples/EditorCallbackViewer.cs
+  artifactKey: Guid(bc9063dd5c474cb78a1068e2805d5a58) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Editor Examples/EditorCallbackViewer.cs using Guid(bc9063dd5c474cb78a1068e2805d5a58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7287d7e16695bf69f30341a65b71202') in 0.0148389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Skybox/Space_right.png
+  artifactKey: Guid(3f260aca84a74e2e94a7ede7994eeb85) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Skybox/Space_right.png using Guid(3f260aca84a74e2e94a7ede7994eeb85) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '649669af52797d8874aaeca98ca80cd1') in 0.023326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Code/PlayerController.cs
+  artifactKey: Guid(d024f2b65ddd7734cb63b4cb29b9c2ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Code/PlayerController.cs using Guid(d024f2b65ddd7734cb63b4cb29b9c2ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a53ae273e92ec791d8a3b239888d57f') in 0.014919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Convert Mesh to Editable
+  artifactKey: Guid(b903dc2159f904f41933bdb6cb34012d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Convert Mesh to Editable using Guid(b903dc2159f904f41933bdb6cb34012d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf106dedb3e0a90d5925f1e6c6a7a19e') in 0.0142661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Icons/PanView.png
+  artifactKey: Guid(d77d6fe8a9d62430ca45bba6b98e1457) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Icons/PanView.png using Guid(d77d6fe8a9d62430ca45bba6b98e1457) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e57c3b83e5f61351d385b501a220241') in 0.0233263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Material/Grid.mat
+  artifactKey: Guid(e17031099b8f8479687f99bb93d35383) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Material/Grid.mat using Guid(e17031099b8f8479687f99bb93d35383) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc413d239a80a8e930608bbb11576f9c') in 0.0164925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Scripts/MeshEditor.cs
+  artifactKey: Guid(b1980aa2876b44faeb9680d0c72b418b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Scripts/MeshEditor.cs using Guid(b1980aa2876b44faeb9680d0c72b418b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'faa234569da2d4c771f5a3fdb22a2ba3') in 0.0146612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Misc/HueCube.cs
+  artifactKey: Guid(497d6c0bc0fc4523b012074f82fa1b31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Misc/HueCube.cs using Guid(497d6c0bc0fc4523b012074f82fa1b31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e06447b1e60828a57645c9f16d2a250') in 0.0201145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Scripts/IcoBumpin.cs
+  artifactKey: Guid(fb8f43bff1e74ba9a71fbceaae84f50a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Scripts/IcoBumpin.cs using Guid(fb8f43bff1e74ba9a71fbceaae84f50a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e4046ce658429867634cc1445bc76b1') in 0.0160468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Editor Examples/RenameNewObjects.cs
+  artifactKey: Guid(b7271c06f5f9495aa00c8bdf5b3b0311) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Editor Examples/RenameNewObjects.cs using Guid(b7271c06f5f9495aa00c8bdf5b3b0311) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0fbf50b4b6b42c0d8530a5613cf31125') in 0.0150583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Scripts/CameraControls.cs
+  artifactKey: Guid(912bb9b70e8a4e3489626fe00e75bf04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Scripts/CameraControls.cs using Guid(912bb9b70e8a4e3489626fe00e75bf04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c5cbaad2a9a1fd03d469817e590fa16') in 0.0149217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ProBuilder Data/Default Material Palette.asset
+  artifactKey: Guid(0fce35e20f644b44aafbed6ae34d3e4b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ProBuilder Data/Default Material Palette.asset using Guid(0fce35e20f644b44aafbed6ae34d3e4b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Error while using custom asset indexer: System.Reflection.TargetParameterCountException: Number of parameters specified does not match the expected number.
+  at UnityEditor.Rendering.Universal.MaterialReferenceBuilder.GetMaterialFromMethod (System.Reflection.MethodInfo method, UnityEngine.Object obj, System.Func`3[T1,T2,TResult] generateErrorString) [0x00034] in .\Library\PackageCache\com.unity.render-pipelines.universal@9c8ceca205de\Editor\Converter\MaterialReferenceBuilder.cs:137 
+  at UnityEditor.Rendering.Universal.ConversionIndexers.ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget context, UnityEditor.Search.ObjectIndexer indexer) [0x00037] in .\Library\PackageCache\com.unity.render-pipelines.universal@9c8ceca205de\Editor\Converter\ConversionIndexers.cs:21 
+  at (wrapper delegate-invoke) <Module>.invoke_void_CustomObjectIndexerTarget_ObjectIndexer(UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer)
+  at UnityEditor.Search.ObjectIndexer.CallCustomIndexers (System.String documentId, System.Int32 documentIndex, UnityEngine.Object obj, UnityEditor.SerializedObject so, System.Boolean multiLevel) [0x000cb] in <159b218e648f48eb925249368898d52d>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+ -> (artifact id: '74e051b09a171de0eba9f03f31a7511c') in 0.0256186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Icons
+  artifactKey: Guid(7e63926609acd43d184324eadfb004ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Icons using Guid(7e63926609acd43d184324eadfb004ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd4bfcc10d023336bcfc31aad4a9367d') in 0.0148187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples
+  artifactKey: Guid(c5752bd708ccc2f429cfc6bbd5ce4f8f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples using Guid(c5752bd708ccc2f429cfc6bbd5ce4f8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e995ec916ab66f9710757f0d6e186f6d') in 0.018027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Icons/MinusArrow.png
+  artifactKey: Guid(d6f9bfed83fc8412c878feb6204acf00) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Icons/MinusArrow.png using Guid(d6f9bfed83fc8412c878feb6204acf00) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33fda45f57b68c18f6261b0298fa5913') in 0.0227469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5
+  artifactKey: Guid(88445b73edcbfb242bba5bfdfaf83d93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5 using Guid(88445b73edcbfb242bba5bfdfaf83d93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12dd890926fb127ff5978dd6398b054c') in 0.0138234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing
+  artifactKey: Guid(11d3e8f4a30f468aa171c2d898cbf96b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing using Guid(11d3e8f4a30f468aa171c2d898cbf96b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f6ae6f3ba4b710f483f734fb5a83b93') in 0.0140378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Samples
+  artifactKey: Guid(897d2136fff4e884480416d4559a21bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples using Guid(897d2136fff4e884480416d4559a21bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '538d29840da6a4f62394faeb320c4a2a') in 0.0159068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/README.md
+  artifactKey: Guid(59c10d71b32084671aa7185cf2f83108) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/README.md using Guid(59c10d71b32084671aa7185cf2f83108) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07c69a80b344c1206ca6979b629585de') in 0.0154802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Vertex Colors
+  artifactKey: Guid(40ad7d6237e94ec1ba0670535dd99fe9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Vertex Colors using Guid(40ad7d6237e94ec1ba0670535dd99fe9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e475795ff5063b568b6d0f82f990c558') in 0.0143865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Scripts/Handles.cs
+  artifactKey: Guid(66763c701ecd4747b117f3fd153dc4ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Scripts/Handles.cs using Guid(66763c701ecd4747b117f3fd153dc4ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50e1415591e69cc7ad1386b3fce3c452') in 0.014759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Vertex Colors/HighlightNearestFace.cs
+  artifactKey: Guid(6a2b3f99b3a94189ac8659e2394c65aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Vertex Colors/HighlightNearestFace.cs using Guid(6a2b3f99b3a94189ac8659e2394c65aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3487898819e8006dc93cec349a34314') in 0.0158601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/MeshEditorScene.unity
+  artifactKey: Guid(390cfe1ffd5f643cbb0c839fda60e168) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/MeshEditorScene.unity using Guid(390cfe1ffd5f643cbb0c839fda60e168) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b44154da309a4a2526fe9c06b482e4a8') in 0.0180927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Icons/MoveArrow.png
+  artifactKey: Guid(1851cc976bd974a93abe4a0bde62e9ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Icons/MoveArrow.png using Guid(1851cc976bd974a93abe4a0bde62e9ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5b35a247f92fa1e767969a05b14112a') in 0.0230145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Skybox/Space_up.png
+  artifactKey: Guid(65b6b8a1fb834a9f8ed87f7da738ab75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Skybox/Space_up.png using Guid(65b6b8a1fb834a9f8ed87f7da738ab75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '503097333e38fbc9e3482d2d2f57264c') in 0.0264911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Editor Examples
+  artifactKey: Guid(3bf4de903bd1d2147a7d6f1253cb3690) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Editor Examples using Guid(3bf4de903bd1d2147a7d6f1253cb3690) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '662993746b5771c4d1fb8849602bad91') in 0.0140866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Scripts
+  artifactKey: Guid(f3c9435958e64393be103d0307371ab8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Scripts using Guid(f3c9435958e64393be103d0307371ab8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5bc31f582e83fd3502e15a22354aedfc') in 0.0275246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Material
+  artifactKey: Guid(09163ff9a7474f28aa3c0f8fd9fdc1ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Material using Guid(09163ff9a7474f28aa3c0f8fd9fdc1ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5c3557fde0d228cfeb2f850b58451f3') in 0.0148268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Scripts/Utility.cs
+  artifactKey: Guid(69b8b316c4674f5bb32e396b7ab5cda1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Runtime Editing/Scripts/Utility.cs using Guid(69b8b316c4674f5bb32e396b7ab5cda1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b03b6523795fc42cc553191a08672d42') in 0.0156419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.815480 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Unity.ProBuilder.Examples.asmdef
+  artifactKey: Guid(66e8476a6a0694b19a6ed20581be3b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Unity.ProBuilder.Examples.asmdef using Guid(66e8476a6a0694b19a6ed20581be3b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '777d3eeab292e89bfd4f2dca7c769c4c') in 0.00116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Convert Mesh to Editable/ProBuilderize Scene.unity
+  artifactKey: Guid(1761c79ad29d9478ba3425188e3b970a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Convert Mesh to Editable/ProBuilderize Scene.unity using Guid(1761c79ad29d9478ba3425188e3b970a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0663b17a21826a5217e6b06e0945a1e9') in 0.0007145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Material/ProBuilderIcon.tga
+  artifactKey: Guid(5e65e46b4d9d4ed590fcc39d49f18f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ProBuilder/6.0.5/Runtime Examples/Icosphere FFT/Material/ProBuilderIcon.tga using Guid(5e65e46b4d9d4ed590fcc39d49f18f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '348250371f5f995a31c151b6455d3ed3') in 0.0245764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Samples/ProBuilder/6.0.5/Editor Examples/Unity.ProBuilder.Examples.Editor.asmdef
+  artifactKey: Guid(ef1f5f55a4ed543fe93cc11633ee6d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ProBuilder/6.0.5/Editor Examples/Unity.ProBuilder.Examples.Editor.asmdef using Guid(ef1f5f55a4ed543fe93cc11633ee6d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9e0a8e0e05dea71bfc86746091aab68') in 0.0008377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.452476 seconds.
+  path: Assets/Samples/ProBuilder
+  artifactKey: Guid(c1fecd8062034c240b37b847aec5b4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ProBuilder using Guid(c1fecd8062034c240b37b847aec5b4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ec35eedb2a9893ddcc504f91ab327db') in 0.0016915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
